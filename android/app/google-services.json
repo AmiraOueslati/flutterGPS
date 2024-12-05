@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "839731231955",
+    "project_id": "gpsprojet-1f39c",
+    "storage_bucket": "gpsprojet-1f39c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839731231955:android:3334398a321a2bb9f3e826",
+        "android_client_info": {
+          "package_name": "com.example.flutter_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpTsJB0n3fWdPTAVPVDknWv-_VVZAA2sQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

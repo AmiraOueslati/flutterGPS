@@ -1,0 +1,55 @@
+name: flutter_project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  web_socket_channel: ^3.0.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  url_launcher: ^6.3.1
+  fl_chart: ^0.50.2
+  image_picker: ^1.1.2
+  fluttertoast: ^8.2.8
+  charts_flutter: ^0.12.0
+  geolocator: ^13.0.1
+  geocoding: ^2.0.0
+  weather: ^3.1.1
+  intl: 0.17.0
+  maps_toolkit: ^2.0.1
+  flutter_charts: ^0.5.2
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  cupertino_icons: ^1.0.8
+  firebase_messaging: 15.1.5
+  shared_preferences: ^2.3.3
+  firebase_database: ^11.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+   
+
+  fonts:
+    - family: Metropolis
+      fonts:
+        - asset: assets/fonts/metropolis.medium.otf
+          weight: 500
+
+dependency_overrides:
+  intl: ^0.17.0  # Use this if necessary
